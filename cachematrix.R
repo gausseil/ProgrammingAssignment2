@@ -1,6 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-## makeCacheMatrix stores the input matrix and initializes the inverse matricx as null 
+## makeCacheMatrix stores the input matrix and initializes the inverse matrix as null 
 
 ## makeCacheMatrix takes a matrix as input and creates a list object with functions to set 
 ## and get the matrix and set and get the inverse of the matrix
@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve uses the makeCacheMatrix output list and returns the inverse matrix, either from the cache if it exists
-## or calculates it and stores it in the output list object so as not to calculate it again for the same matrix
+## or calculates it and stores it in the output list object so as not to calculate it again for the same matrix and request
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
